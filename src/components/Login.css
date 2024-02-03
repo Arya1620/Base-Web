@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+     
+  }
+
+
+  .base{
+    display: flex;
+    height: 97vh;
+
+    
+    /* background-color: white; */
+  }
+
+  .leftBar{
+    width: 75%;
+    height: 100vh;
+    background-color: #605BFF;
+   /* transform: rotate(10deg) rotateY(-5deg); */
+   clip-path: polygon(0 0, 100% 0, 84% 100%, 0% 100%);
+}
+
+ 
+
+  .rightBar{
+    /* height: 100vh; */
+
+    /* width: 50%; */
+    width: 86.7vw;
+
+    /* height: 1024px; */
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pbase{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30%;
+    /* width: 205px; */
+    height: 88px;
+    top: 462.37px;
+    left: 196.33px;
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 87.77px;
+    color: white;
+  }
+  
+  .p1{
+    /* width: 143.81px;
+    height: 48.3px;
+    top: 235.32px;
+    left: 813.18px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .p2{
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .p3{
+    width: 286.51px;
+    height:20.86px ;
+    top:768.83px ;
+    left: 881.24px;
+}
+  
+  
+  .formBox {
+    padding: 30px;
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 422.64px; 
+    height: 390.8px;
+    /* display: block; */
+    top: 398.88px;
+    left: 813.18px;
+    border-radius: 10px;
+    border: 1px;
+    height: 280px;
+
+  }
+  
+  .formBox a {
+    display: block;
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+.input1{
+    background-color: #EAEAEA;
+    width: 346.77px;
+    height: 43.91px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 4px;
+}
+
+.button1{
+    width: 356.77px;
+    height: 43.91px;
+    /* position: relative; */
+    top: 770.03px;
+    left: 846.11px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    font-size: 16px;
+    color: white;
+}
+
+.logo{
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 70px;
+}
+
+.socialm{
+  text-align: center;
+}
+
+.social{
+  width: 50px;
+  padding: 10px;
+  padding-top: 20%;
+}
+
+.autht{
+  padding-top: 10px;
+  display: flex;
+}
+
